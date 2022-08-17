@@ -34,5 +34,9 @@ dox/
 dox/*
 .dox/
 .dox/*
-html
-html/*
+obj/
+obj/*
+lib/
+lib/*
+src/
+src/*
