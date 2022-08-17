@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo "compiling library..."
+make lib
+echo "copying shared library..."
+sudo cp lib/libht.so /usr/lib
+echo "copying header..."
+sudo cp src/ht.h /usr/include
+echo "cleaning..."
+make clean
+echo "done"
